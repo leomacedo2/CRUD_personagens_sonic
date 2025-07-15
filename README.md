@@ -90,6 +90,7 @@ python main.py
 
 ---
 
-## 🤝 Créditos
+## 🧑‍💻 Autor
 
-Projeto criado por [@leomacedo](https://github.com/leomacedo)
+[Leonardo Macedo](https://github.com/leomacedo)  
+📍 Aracaju, SE – Brasil
