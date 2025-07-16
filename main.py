@@ -77,8 +77,14 @@ def iniciar():
                         cor = input("Nova cor: ")
                         poderes = input("Novos poderes: ")
 
-                        atualizar_personagem(id, nome, tipo, time, cor, poderes)
-                        print("✅ Personagem atualizado com sucesso!")
+                        print(f"\nVocê está prestes a atualizar: {personagem[1]} (ID: {personagem[0]})")
+                        confirmacao = input("Tem certeza que deseja atualizar? (s/n): ").lower()
+
+                        if confirmacao == "s":
+                            atualizar_personagem(id, nome, tipo, time, cor, poderes)
+                            print("✅ Personagem atualizado com sucesso!")
+                        else:
+                            print("❌ Atualização cancelada.")
                     else:
                         print("❌ ID não encontrado. Nenhuma atualização realizada.")
                 except ValueError:

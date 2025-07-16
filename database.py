@@ -135,7 +135,7 @@ def exportar_para_csv():
 
     try:
         with open(nome_arquivo, mode="w", newline="", encoding="utf-8-sig") as arquivo:
-            escritor = csv.writer(arquivo)
+            escritor = csv.writer(arquivo, delimiter=";")
             escritor.writerow(["ID", "Nome", "Tipo", "Time", "Cor", "Poderes"])
             escritor.writerows(personagens)
         print(f"✅ Backup exportado com sucesso para '{nome_arquivo}'!")
