@@ -11,6 +11,8 @@ from database import (
     exportar_para_csv
 )
 
+# Teste de git na conta nova!
+
 # Exibição do menu para interação do Banco de dados
 def menu():
     print("\n--- Banco de Dados do Universo Sonic 🌀 ---")
