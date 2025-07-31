@@ -65,7 +65,7 @@ def iniciar():
                     print(f"ID: {p[0]} | {p[1]}")
             
                 try:
-                    id = int(input("\nID do personagem a atualizar: "))
+                    id = int(input("\nID do personagem a atualizar(Digite um número inválido para cancelar) : "))
                     personagem = buscar_por_id(id)
 
                     if personagem:
@@ -104,7 +104,7 @@ def iniciar():
                     print(f"ID: {p[0]} | {p[1]}")
 
                 try:
-                    id = int(input("\nID do personagem a remover: "))
+                    id = int(input("\nID do personagem a remover(Digite um número inválido para cancelar) :  "))
                     personagem = buscar_por_id(id)
 
                     if personagem:
