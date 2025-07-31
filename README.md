@@ -28,10 +28,10 @@ Cada personagem possui os seguintes campos:
 
 | Campo    | Descrição                                        |
 |----------|--------------------------------------------------|
-| `nome`   | Nome do personagem (ex: Sonic, Tails, Knuckles) |
+| `nome`   | Nome do personagem (ex: Sonic, Tails, Knuckles)  |
 | `tipo`   | Speed, Power ou Fly                              |
 | `time`   | Time de origem (Sonic, Dark, Babylon Rogues...)  |
-| `cor`    | Cor predominante (Azul, Amarelo, Roxo...)         |
+| `cor`    | Cor predominante (Azul, Amarelo, Roxo...)        |
 | `poderes`| Habilidades especiais ou marcantes               |
 
 ---
